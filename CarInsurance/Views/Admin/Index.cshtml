@@ -7,18 +7,18 @@
 <h2>Index</h2>
 
 
-<table class="table">
-    <tr>
-        <th>
+<table class="table text-center">
+    <tr class="bg-info">
+        <th class="text-center">
             @Html.DisplayNameFor(model => model.FirstName)
         </th>
-        <th>
+        <th class="text-center">
             @Html.DisplayNameFor(model => model.LastName)
         </th>
-        <th>
+        <th class="text-center">
             @Html.DisplayNameFor(model => model.EmailAddress)
         </th>
-        <th>
+        <th class="text-center">
             @Html.DisplayNameFor(model => model.Quote)
         </th>
         <th></th>
@@ -36,7 +36,7 @@
             <td>
                 @Html.DisplayFor(modelItem => item.EmailAddress)
             </td>
-            <td>
+            <td class="text-danger">
                 @Html.DisplayFor(modelItem => item.Quote)
             </td>
 

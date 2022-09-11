@@ -9,39 +9,39 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table class="table">
-    <tr>
-        <th>
+<table class="table text-center">
+    <tr class="bg-info">
+        <th class="text-center">
             @Html.DisplayNameFor(model => model.FirstName)
         </th>
-        <th>
+        <th class="text-center">
             @Html.DisplayNameFor(model => model.LastName)
         </th>
-        <th>
+        <th class="text-center">
             @Html.DisplayNameFor(model => model.EmailAddress)
         </th>
-        <th>
+        <th class="text-center">
             @Html.DisplayNameFor(model => model.DateOfBirth)
         </th>
-        <th>
+        <th class="text-center">
             @Html.DisplayNameFor(model => model.CarYear)
         </th>
-        <th>
+        <th class="text-center">
             @Html.DisplayNameFor(model => model.CarMake)
         </th>
-        <th>
+        <th class="text-center">
             @Html.DisplayNameFor(model => model.CarModel)
         </th>
-        <th>
+        <th class="text-center">
             @Html.DisplayNameFor(model => model.DUI)
         </th>
-        <th>
+        <th class="text-center">
             @Html.DisplayNameFor(model => model.SpeedingTickets)
         </th>
-        <th>
+        <th class="text-center">
             @Html.DisplayNameFor(model => model.CoverageType)
         </th>
-        <th>
+        <th class="text-center" class="text-center">
             @Html.DisplayNameFor(model => model.Quote)
         </th>
         <th></th>
@@ -80,7 +80,7 @@
             <td>
                 @Html.DisplayFor(modelItem => item.CoverageType)
             </td>
-            <td>
+            <td class="text-danger">
                 @Html.DisplayFor(modelItem => item.Quote)
             </td>
             <td>
